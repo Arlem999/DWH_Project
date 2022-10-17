@@ -1,10 +1,10 @@
-page 50101 "DWH integration archive log"
+page 50101 "DWH integration archive Arlem"
 {
     ApplicationArea = All;
-    Caption = 'DWH integration archive log';
+    Caption = 'DWH integration archive Arlem';
     PageType = List;
-    SourceTable = "DWH integration archive log";
-    UsageCategory = Lists;
+    SourceTable = "DWH integration archive Arlem";
+    UsageCategory = History;
 
     layout
     {

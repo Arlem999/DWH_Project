@@ -1,8 +1,10 @@
-page 50100 "DWH integration setup"
+page 50100 "DWH integration setup Arlem"
 {
-    Caption = 'DWH integration setup';
+    Caption = 'DWH integration setup Arlem';
     PageType = Card;
-    SourceTable = "DWH integration setup";
+    SourceTable = "DWH integration setup Arlem";
+    ApplicationArea = all;
+    UsageCategory = Administration;
 
     layout
     {
@@ -65,32 +67,12 @@ page 50100 "DWH integration setup"
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Invoice default G/L Account field.';
                 }
-                field(SystemCreatedAt; Rec.SystemCreatedAt)
-                {
-                    ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the SystemCreatedAt field.';
-                }
-                field(SystemCreatedBy; Rec.SystemCreatedBy)
-                {
-                    ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the SystemCreatedBy field.';
-                }
-                field(SystemId; Rec.SystemId)
-                {
-                    ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the SystemId field.';
-                }
-                field(SystemModifiedAt; Rec.SystemModifiedAt)
-                {
-                    ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the SystemModifiedAt field.';
-                }
-                field(SystemModifiedBy; Rec.SystemModifiedBy)
-                {
-                    ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the SystemModifiedBy field.';
-                }
             }
         }
     }
+    trigger OnOpenPage()
+    begin
+        if Rec.IsEmpty() then
+            Rec.Insert(true)
+    end;
 }

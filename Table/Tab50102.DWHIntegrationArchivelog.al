@@ -1,4 +1,4 @@
-table 50102 "DWH integration archive log"
+table 50102 "DWH integration archive Arlem"
 {
     Caption = 'DWH integration archive log Arlem';
     DataClassification = ToBeClassified;

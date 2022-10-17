@@ -1,4 +1,4 @@
-table 50101 "DWH integration log"
+table 50101 "DWH integration log Arlem"
 {
     Caption = 'DWH integration log Arlem';
     DataClassification = ToBeClassified;
@@ -44,7 +44,7 @@ table 50101 "DWH integration log"
         {
             Caption = 'Document Type';
             DataClassification = ToBeClassified;
-            OptionMembers = "'h'","'i'";   ///// to do
+            OptionMembers = "Payment","Refund","Invoice";
         }
         field(9; TransactionID; Text[20])
         {
@@ -147,9 +147,10 @@ table 50101 "DWH integration log"
             Caption = 'Invoiced';
             DataClassification = ToBeClassified;
         }
-        field(29; meta_Chck; Text[10]) /// to do?
+        field(29; meta_Chck; Option)
         {
             Caption = 'meta_Chck';
+            OptionMembers = "Payment","Invoice","Expense";
             DataClassification = ToBeClassified;
         }
         field(30; meta_MarteInsertDate; Date)
