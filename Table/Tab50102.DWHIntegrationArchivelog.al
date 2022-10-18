@@ -44,7 +44,7 @@ table 50102 "DWH integration archive Arlem"
         {
             Caption = 'Document Type';
             DataClassification = ToBeClassified;
-            OptionMembers = "'h'","'i'";   ///// to do
+            OptionMembers = "Payment","Refund","Invoice";
         }
         field(9; TransactionID; Text[20])
         {
@@ -147,9 +147,10 @@ table 50102 "DWH integration archive Arlem"
             Caption = 'Invoiced';
             DataClassification = ToBeClassified;
         }
-        field(29; meta_Chck; Text[10]) /// to do?
+        field(29; meta_Chck; Option)
         {
             Caption = 'meta_Chck';
+            OptionMembers = "Payment","Invoice","Expense";
             DataClassification = ToBeClassified;
         }
         field(30; meta_MarteInsertDate; Date)

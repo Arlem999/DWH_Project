@@ -168,32 +168,78 @@ page 50102 "DWH integration log Arlem"
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the meta_DWHInsertDate field.';
                 }
-                field(SystemCreatedAt; Rec.SystemCreatedAt)
-                {
-                    ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the SystemCreatedAt field.';
-                }
-                field(SystemCreatedBy; Rec.SystemCreatedBy)
-                {
-                    ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the SystemCreatedBy field.';
-                }
-                field(SystemId; Rec.SystemId)
-                {
-                    ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the SystemId field.';
-                }
-                field(SystemModifiedAt; Rec.SystemModifiedAt)
-                {
-                    ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the SystemModifiedAt field.';
-                }
-                field(SystemModifiedBy; Rec.SystemModifiedBy)
-                {
-                    ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the SystemModifiedBy field.';
-                }
             }
         }
     }
+    actions
+    {
+        area(Processing)
+        {
+            action("Process All Data")
+            {
+                ApplicationArea = All;
+                Caption = 'Process All Data';
+                Image = Process;
+                Promoted = true;
+                PromotedCategory = Process;
+                PromotedOnly = true;
+                PromotedIsBig = true;
+
+                trigger OnAction()
+                var
+                    DWHArchive: Record "DWH integration archive Arlem";
+                    ErrorMessage: Label 'Sorry there is nothing to do here';
+                    ProcessSucess: Label 'Data is successfully procced.';
+                begin
+                    if Rec.FindSet() then begin
+                        repeat
+                            DWHArchive.TransferFields(Rec, true);
+                            if DWHArchive.Insert() then begin
+                                CreateSalesDocument(Rec);
+                                AddGenJournalLines(Rec);
+                            end;
+                        until Rec.Next() = 0;
+                    end else
+                        Message(ErrorMessage);
+                    Rec.DeleteAll();
+                    Message(ProcessSucess);
+                end;
+            }
+            action("DWH Loading data")
+            {
+                ApplicationArea = All;
+                Caption = 'DWH Loading data';
+                Image = Download;
+                Promoted = true;
+                PromotedCategory = Process;
+                PromotedOnly = true;
+                PromotedIsBig = true;
+                RunObject = report "DWH Loading data";
+            }
+            action("DWH Setup")
+            {
+                ApplicationArea = All;
+                Caption = 'DWH Setup';
+                Image = Setup;
+                Promoted = true;
+                PromotedCategory = Process;
+                PromotedOnly = true;
+                PromotedIsBig = true;
+                RunObject = page "DWH integration setup Arlem";
+            }
+        }
+    }
+    local procedure CreateSalesDocument(WDHRecord: Record "DWH integration log Arlem")
+    var
+        myInt: Integer;
+    begin
+
+    end;
+
+    local procedure AddGenJournalLines(WDHRecord: Record "DWH integration log Arlem")
+    var
+        myInt: Integer;
+    begin
+
+    end;
 }

@@ -538,31 +538,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control SegmentName - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Control 577209412 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the SystemCreatedAt field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control SystemCreatedAt - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 532553740 - Control 4000648066 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the SystemCreatedBy field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control SystemCreatedBy - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 532553740 - Control 1367528460 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the SystemId field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control SystemId - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 532553740 - Control 2453272523 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the SystemModifiedAt field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control SystemModifiedAt - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 532553740 - Control 4085837753 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the SystemModifiedBy field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control SystemModifiedBy - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="Page 532553740 - Control 1952690755 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the TransactionID field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -723,35 +698,35 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control SegmentName - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 577209412 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the SystemCreatedAt field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control SystemCreatedAt - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 4000648066 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the SystemCreatedBy field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control SystemCreatedBy - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 1367528460 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the SystemId field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control SystemId - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 2453272523 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the SystemModifiedAt field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control SystemModifiedAt - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 4085837753 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the SystemModifiedBy field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control SystemModifiedBy - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="Page 1741950674 - Control 1952690755 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the TransactionID field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control TransactionID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1741950674 - Action 1320963047 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DWH Loading data</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Action DWH Loading data - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1741950674 - Action 3741286840 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DWH Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Action DWH Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1741950674 - Action 1500081518 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Process All Data</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Action Process All Data - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1741950674 - Action 1500081518 - Method 1377591017 - NamedType 2763291245" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sorry there is nothing to do here</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Action Process All Data - Method OnAction - NamedType ErrorMessage</note>
+        </trans-unit>
+        <trans-unit id="Page 1741950674 - Action 1500081518 - Method 1377591017 - NamedType 2945685525" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data is successfully procced.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Action Process All Data - Method OnAction - NamedType ProcessSucess</note>
         </trans-unit>
         <trans-unit id="Page 517359439 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>DWH integration setup Arlem</source>
@@ -828,15 +803,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report DWH Loading data - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 1320963047 - NamedType 3726724574" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Excel is successfully imported.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report DWH Loading data - NamedType ExcelImportSucess</note>
-        </trans-unit>
         <trans-unit id="Report 1320963047 - NamedType 511806700" size-unit="char" translate="yes" xml:space="preserve">
           <source>File Not Found!</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report DWH Loading data - NamedType NoFileFoundMsg</note>
+        </trans-unit>
+        <trans-unit id="Report 1320963047 - NamedType 3237266079" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Choose what you want to do before importing data</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DWH Loading data - NamedType ReqPage</note>
         </trans-unit>
         <trans-unit id="Report 1320963047 - NamedType 1635154260" size-unit="char" translate="yes" xml:space="preserve">
           <source>Please Choose the Excel File: </source>

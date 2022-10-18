@@ -8,22 +8,19 @@ table 50101 "DWH integration log Arlem"
         field(1; LineNo; Integer)
         {
             Caption = 'Line No';
-            DataClassification = ToBeClassified;
+            AutoIncrement = true;
         }
         field(2; DebtorName; Text[30])
         {
             Caption = 'Name of the Debtor';
-            DataClassification = ToBeClassified;
         }
         field(3; DebtorTaxCode; Code[30])
         {
             Caption = 'Debtor Tax Code';
-            DataClassification = ToBeClassified;
         }
         field(4; DebtorAddress; Text[250])
         {
             Caption = 'Debtor Address';
-            DataClassification = ToBeClassified;
         }
         field(5; CaseID; Text[20])
         {
