@@ -10,24 +10,9 @@ report 50100 "DWH Loading data"
     {
         dataitem("DWH integration log Arlem"; "DWH integration log Arlem")
         {
-            DataItemTableView = sorting(LineNo);
         }
     }
-    requestpage
-    {
-        layout
-        {
-            area(content)
-            {
-                group(ReqPage)
-                {
-                }
-            }
-        }
-        actions
-        {
-        }
-    }
+
     var
 
         ReqPage: Label 'Choose what you want to do before importing data';

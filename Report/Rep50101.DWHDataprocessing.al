@@ -5,28 +5,17 @@ report 50101 "DWH Data processing"
     ApplicationArea = all;
     ProcessingOnly = true;
 
-    dataset
-    {
-        // dataitem(; "")
-        // {
-        // }
-    }
-    requestpage
-    {
-        layout
-        {
-            area(content)
-            {
-                group(GroupName)
-                {
-                }
-            }
-        }
-        actions
-        {
-            area(processing)
-            {
-            }
-        }
-    }
+    procedure CreateSalesDocument(WDHRecord: Record "DWH integration log Arlem")
+    var
+        myInt: Integer;
+    begin
+
+    end;
+
+    procedure AddGenJournalLines(WDHRecord: Record "DWH integration log Arlem")
+    var
+        myInt: Integer;
+    begin
+
+    end;
 }

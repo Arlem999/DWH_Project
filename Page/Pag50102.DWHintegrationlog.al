@@ -188,6 +188,7 @@ page 50102 "DWH integration log Arlem"
                 trigger OnAction()
                 var
                     DWHArchive: Record "DWH integration archive Arlem";
+                    DWHProcessl: Report "DWH Data processing";
                     ErrorMessage: Label 'Sorry there is nothing to do here';
                     ProcessSucess: Label 'Data is successfully procced.';
                 begin
@@ -195,8 +196,8 @@ page 50102 "DWH integration log Arlem"
                         repeat
                             DWHArchive.TransferFields(Rec, true);
                             if DWHArchive.Insert() then begin
-                                CreateSalesDocument(Rec);
-                                AddGenJournalLines(Rec);
+                                DWHProcessl.CreateSalesDocument(Rec);
+                                DWHProcessl.AddGenJournalLines(Rec);
                             end;
                         until Rec.Next() = 0;
                     end else
@@ -229,17 +230,4 @@ page 50102 "DWH integration log Arlem"
             }
         }
     }
-    local procedure CreateSalesDocument(WDHRecord: Record "DWH integration log Arlem")
-    var
-        myInt: Integer;
-    begin
-
-    end;
-
-    local procedure AddGenJournalLines(WDHRecord: Record "DWH integration log Arlem")
-    var
-        myInt: Integer;
-    begin
-
-    end;
 }
