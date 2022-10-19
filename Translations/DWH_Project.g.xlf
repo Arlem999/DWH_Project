@@ -8,90 +8,95 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 532553740 - Field 340367020 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 532553740 - Field 1622979514 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Account No</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field AccountNo - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field Account No. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 532553740 - Field 1534374427 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 532553740 - Field 3699788827 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Account Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field AccountType - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field Account Type - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 532553740 - Field 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field Amount - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 532553740 - Field 3575898225 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 532553740 - Field 3230818393 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bal Account No</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field BalAccountNo - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field Bal Account No - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 532553740 - Field 3725994770 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 532553740 - Field 3264082730 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bal Account Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field BalAccountType - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field Bal Account Type - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 532553740 - Field 3329328363 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 532553740 - Field 1342997091 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Batch ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field BatchID - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field Batch ID - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 532553740 - Field 1042671269 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 532553740 - Field 3182586253 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Batch Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field BatchName - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field Batch Name - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 532553740 - Field 3113616309 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 532553740 - Field 2181499037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Case Expiration Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field CaseExpirationDate - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field Case Expiration Date - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 532553740 - Field 3658324331 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 532553740 - Field 3856001763 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Case ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field CaseID - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field Case ID - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 532553740 - Field 3083748138 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bal Account No</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field Correction - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 532553740 - Field 567887726 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 532553740 - Field 4198939294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Currency Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field CurrencyCode - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field Currency Code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 532553740 - Field 1904440800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 532553740 - Field 3190677048 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Debtor Address</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field DebtorAddress - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field Debtor Address - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 532553740 - Field 2585686335 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 532553740 - Field 2703853143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Name of the Debtor</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field DebtorName - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field Debtor Name - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 532553740 - Field 781798222 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 532553740 - Field 3714884406 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Debtor Tax Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field DebtorTaxCode - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field Debtor Tax Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 532553740 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field Description - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 532553740 - Field 4237283545 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 532553740 - Field 2363328873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field DocumentType - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field Document Type - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 532553740 - Field 4251460545 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 532553740 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 532553740 - Field 1021818121 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Flow ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field FlowID - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field Flow ID - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 532553740 - Field 3602663741 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>GL\Local Account</source>
@@ -103,40 +108,35 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field Invoiced - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 532553740 - Field 1165969121 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Line No</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field LineNo - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 532553740 - Field 3745425811 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 532553740 - Field 4287775586 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>meta_Chck</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field meta_Chck - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field meta Chck - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 532553740 - Field 1754972406 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>meta_DWHInsertDate</source>
+        <trans-unit id="Table 532553740 - Field 63641999 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>meta DWHInsertDate</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field meta_DWHInsertDate - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field meta DWH Insert Date - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 532553740 - Field 2464123250 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>meta_MarteInsertDate</source>
+        <trans-unit id="Table 532553740 - Field 71639555 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>meta MarteInsertDate</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field meta_MarteInsertDate - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field meta Marte Insert Date - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 532553740 - Field 1963327841 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 532553740 - Field 440856169 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Portfolio ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field PortfolioID - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field Portfolio ID - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 532553740 - Field 1261723815 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 532553740 - Field 4246812799 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Portfolio Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field PortfolioName - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field Portfolio Name - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 532553740 - Field 3037438984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 532553740 - Field 3710982960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field PostingDate - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field Posting Date - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 532553740 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Quantity</source>
@@ -148,180 +148,180 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field SDI - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 532553740 - Field 3965275322 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 532553740 - Field 2538883850 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Segment ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field SegmentID - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field Segment ID - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 532553740 - Field 3874476544 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 532553740 - Field 1180798800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Segment Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field SegmentName - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field Segment Name - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 532553740 - Field 1952690755 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 532553740 - Field 443943387 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>TransactionID</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field TransactionID - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration archive Arlem - Field Transaction ID - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>DWH integration log Arlem</source>
+        <trans-unit id="Table 1092771794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DWH Integration Log Arlem</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 340367020 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1092771794 - Field 1622979514 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Account No</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field AccountNo - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field Account No. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 1534374427 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1092771794 - Field 3699788827 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Account Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field AccountType - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field Account Type - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1092771794 - Field 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field Amount - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field Amount - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 3575898225 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1092771794 - Field 3230818393 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bal Account No</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field BalAccountNo - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field Bal Account No - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 3725994770 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1092771794 - Field 3264082730 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bal Account Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field BalAccountType - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field Bal Account Type - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 3329328363 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1092771794 - Field 1342997091 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Batch ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field BatchID - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field Batch ID - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 1042671269 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1092771794 - Field 3182586253 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Batch Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field BatchName - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field Batch Name - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 3113616309 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1092771794 - Field 2181499037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Case Expiration Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field CaseExpirationDate - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field Case Expiration Date - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 3658324331 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1092771794 - Field 3856001763 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Case ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field CaseID - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field Case ID - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 3083748138 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1092771794 - Field 3083748138 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bal Account No</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field Correction - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field Correction - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 567887726 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1092771794 - Field 4198939294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Currency Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field CurrencyCode - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field Currency Code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 1904440800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1092771794 - Field 3190677048 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Debtor Address</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field DebtorAddress - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field Debtor Address - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 2585686335 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1092771794 - Field 2703853143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Name of the Debtor</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field DebtorName - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field Debtor Name - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 781798222 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1092771794 - Field 3714884406 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Debtor Tax Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field DebtorTaxCode - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field Debtor Tax Code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1092771794 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field Description - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field Description - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 4237283545 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1092771794 - Field 2363328873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field DocumentType - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field Document Type - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 4251460545 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1092771794 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1092771794 - Field 1021818121 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Flow ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field FlowID - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field Flow ID - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 3602663741 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1092771794 - Field 3602663741 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>GL\Local Account</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field GL\Local Account - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field GL\Local Account - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 3015270207 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1092771794 - Field 3015270207 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Invoiced</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field Invoiced - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field Invoiced - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 1165969121 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Line No</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field LineNo - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 3745425811 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1092771794 - Field 4287775586 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>meta_Chck</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field meta_Chck - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field meta Chck - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 1754972406 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>meta_DWHInsertDate</source>
+        <trans-unit id="Table 1092771794 - Field 63641999 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>meta DWHInsertDate</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field meta_DWHInsertDate - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field meta DWH Insert Date - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 2464123250 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>meta_MarteInsertDate</source>
+        <trans-unit id="Table 1092771794 - Field 71639555 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>meta MarteInsertDate</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field meta_MarteInsertDate - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field meta Marte Insert Date - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 1963327841 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1092771794 - Field 440856169 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Portfolio ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field PortfolioID - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field Portfolio ID - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 1261723815 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1092771794 - Field 4246812799 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Portfolio Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field PortfolioName - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field Portfolio Name - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 3037438984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1092771794 - Field 3710982960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field PostingDate - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field Posting Date - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1092771794 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Quantity</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field Quantity - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field Quantity - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 1287827666 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1092771794 - Field 1287827666 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>SDI</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field SDI - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field SDI - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 3965275322 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1092771794 - Field 2538883850 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Segment ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field SegmentID - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field Segment ID - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 3874476544 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1092771794 - Field 1180798800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Segment Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field SegmentName - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field Segment Name - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1741950674 - Field 1952690755 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 1092771794 - Field 443943387 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>TransactionID</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration log Arlem - Field TransactionID - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH Integration Log Arlem - Field Transaction ID - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 517359439 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>DWH integration setup Arlem</source>
@@ -383,350 +383,325 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration setup Arlem - Field Payments General Journal Batch - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 517359439 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration setup Arlem - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3823472908 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>DWH integration archive Arlem</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Control 340367020 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3823472908 - Control 340367020 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Account No field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control AccountNo - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Control AccountNo - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Control 1534374427 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3823472908 - Control 1534374427 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Account Type field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control AccountType - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Control AccountType - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Control 636392376 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3823472908 - Control 636392376 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Amount field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control Amount - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Control Amount - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Control 3575898225 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3823472908 - Control 3575898225 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Bal Account No field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control BalAccountNo - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Control BalAccountNo - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Control 3725994770 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3823472908 - Control 3725994770 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Bal Account Type field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control BalAccountType - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Control BalAccountType - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Control 3329328363 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3823472908 - Control 3329328363 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Batch ID field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control BatchID - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Control BatchID - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Control 1042671269 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3823472908 - Control 1042671269 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Batch Name field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control BatchName - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Control BatchName - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Control 3113616309 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3823472908 - Control 3113616309 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Case Expiration Date field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control CaseExpirationDate - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Control CaseExpirationDate - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Control 3658324331 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3823472908 - Control 3658324331 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Case ID field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control CaseID - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Control CaseID - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Control 3083748138 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3823472908 - Control 3083748138 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Bal Account No field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control Correction - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Control Correction - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Control 567887726 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3823472908 - Control 567887726 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Currency Code field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control CurrencyCode - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Control CurrencyCode - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Control 1904440800 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3823472908 - Control 1904440800 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Debtor Address field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control DebtorAddress - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Control DebtorAddress - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Control 2585686335 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3823472908 - Control 2585686335 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Name of the Debtor field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control DebtorName - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Control DebtorName - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Control 781798222 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3823472908 - Control 781798222 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Debtor Tax Code field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control DebtorTaxCode - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Control DebtorTaxCode - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3823472908 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Description field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control Description - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Control Description - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Control 4237283545 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3823472908 - Control 4237283545 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Document Type field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control DocumentType - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Control DocumentType - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Control 4251460545 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3823472908 - Control 4251460545 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Flow ID field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control FlowID - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Control FlowID - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Control 3602663741 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3823472908 - Control 3602663741 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the GL\Local Account field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control GL\Local Account - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Control GL\Local Account - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Control 3015270207 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3823472908 - Control 3015270207 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Invoiced field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control Invoiced - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Control Invoiced - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Control 1165969121 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3823472908 - Control 1165969121 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Line No field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control LineNo - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Control LineNo - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Control 3745425811 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the meta_Chck field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control meta_Chck - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 532553740 - Control 1754972406 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the meta_DWHInsertDate field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control meta_DWHInsertDate - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 532553740 - Control 2464123250 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the meta_MarteInsertDate field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control meta_MarteInsertDate - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 532553740 - Control 1963327841 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3823472908 - Control 1963327841 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Portfolio ID field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control PortfolioID - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Control PortfolioID - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Control 1261723815 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3823472908 - Control 1261723815 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Portfolio Name field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control PortfolioName - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Control PortfolioName - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Control 3037438984 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3823472908 - Control 3037438984 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Posting Date field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control PostingDate - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Control PostingDate - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3823472908 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Quantity field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control Quantity - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Control Quantity - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Control 1287827666 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3823472908 - Control 1287827666 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the SDI field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control SDI - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Control SDI - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Control 3965275322 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3823472908 - Control 3965275322 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Segment ID field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control SegmentID - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Control SegmentID - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Control 3874476544 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3823472908 - Control 3874476544 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Segment Name field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control SegmentName - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Control SegmentName - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 532553740 - Control 1952690755 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 3823472908 - Control 1952690755 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the TransactionID field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration archive Arlem - Control TransactionID - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Control TransactionID - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>DWH integration log Arlem</source>
+        <trans-unit id="Page 1092771794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DWH Integration Log Arlem</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 340367020 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Control 340367020 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Account No field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control AccountNo - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Control AccountNo - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 1534374427 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Control 1534374427 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Account Type field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control AccountType - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Control AccountType - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 636392376 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Control 636392376 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Amount field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control Amount - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Control Amount - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 3575898225 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Control 3575898225 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Bal Account No field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control BalAccountNo - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Control BalAccountNo - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 3725994770 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Control 3725994770 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Bal Account Type field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control BalAccountType - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Control BalAccountType - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 3329328363 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Control 3329328363 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Batch ID field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control BatchID - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Control BatchID - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 1042671269 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Control 1042671269 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Batch Name field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control BatchName - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Control BatchName - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 3113616309 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Control 3113616309 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Case Expiration Date field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control CaseExpirationDate - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Control CaseExpirationDate - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 3658324331 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Control 3658324331 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Case ID field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control CaseID - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Control CaseID - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 3083748138 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Control 3083748138 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Bal Account No field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control Correction - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Control Correction - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 567887726 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Control 567887726 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Currency Code field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control CurrencyCode - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Control CurrencyCode - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 1904440800 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Control 1904440800 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Debtor Address field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control DebtorAddress - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Control DebtorAddress - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 2585686335 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Control 2585686335 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Name of the Debtor field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control DebtorName - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Control DebtorName - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 781798222 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Control 781798222 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Debtor Tax Code field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control DebtorTaxCode - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Control DebtorTaxCode - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Description field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control Description - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Control Description - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 4237283545 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Control 4237283545 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Document Type field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control DocumentType - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Control DocumentType - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 4251460545 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Control 4251460545 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Flow ID field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control FlowID - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Control FlowID - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 3602663741 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Control 3602663741 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the GL\Local Account field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control GL\Local Account - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Control GL\Local Account - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 3015270207 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Control 3015270207 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Invoiced field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control Invoiced - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Control Invoiced - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 1165969121 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Control 1165969121 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Line No field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control LineNo - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Control LineNo - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 3745425811 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the meta_Chck field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control meta_Chck - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 1754972406 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the meta_DWHInsertDate field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control meta_DWHInsertDate - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 2464123250 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the meta_MarteInsertDate field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control meta_MarteInsertDate - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 1963327841 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Control 1963327841 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Portfolio ID field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control PortfolioID - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Control PortfolioID - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 1261723815 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Control 1261723815 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Portfolio Name field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control PortfolioName - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Control PortfolioName - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 3037438984 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Control 3037438984 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Posting Date field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control PostingDate - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Control PostingDate - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Quantity field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control Quantity - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Control Quantity - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 1287827666 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Control 1287827666 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the SDI field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control SDI - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Control SDI - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 3965275322 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Control 3965275322 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Segment ID field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control SegmentID - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Control SegmentID - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 3874476544 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Control 3874476544 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Segment Name field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control SegmentName - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Control SegmentName - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Control 1952690755 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Control 1952690755 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the TransactionID field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Control TransactionID - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Control TransactionID - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Action 1320963047 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Action 1320963047 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>DWH Loading data</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Action DWH Loading data - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Action DWH Loading data - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Action 3741286840 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Action 3741286840 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>DWH Setup</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Action DWH Setup - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Action DWH Setup - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Action 1500081518 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Action 1500081518 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Process All Data</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Action Process All Data - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Action Process All Data - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Action 1500081518 - Method 1377591017 - NamedType 2763291245" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Action 1500081518 - Method 1377591017 - NamedType 2763291245" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sorry there is nothing to do here</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Action Process All Data - Method OnAction - NamedType ErrorMessage</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Action Process All Data - Method OnAction - NamedType ErrorMessage</note>
         </trans-unit>
-        <trans-unit id="Page 1741950674 - Action 1500081518 - Method 1377591017 - NamedType 2945685525" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1092771794 - Action 1500081518 - Method 1377591017 - NamedType 2945685525" size-unit="char" translate="yes" xml:space="preserve">
           <source>Data is successfully procced.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration log Arlem - Action Process All Data - Method OnAction - NamedType ProcessSucess</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Action Process All Data - Method OnAction - NamedType ProcessSucess</note>
         </trans-unit>
         <trans-unit id="Page 517359439 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>DWH integration setup Arlem</source>
@@ -788,10 +763,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration setup Arlem - Control Payments General Journal Batch - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Report 3779987836 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>DWH Data processing Arlem</source>
+        <trans-unit id="Report 2888397148 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DWH Data Processing Arlem</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report DWH Data processing - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DWH Data Processing - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 118285402 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>DWH Del personalDataOf debtors Arlem</source>
@@ -807,11 +782,6 @@
           <source>File Not Found!</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report DWH Loading data - NamedType NoFileFoundMsg</note>
-        </trans-unit>
-        <trans-unit id="Report 1320963047 - NamedType 3237266079" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Choose what you want to do before importing data</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report DWH Loading data - NamedType ReqPage</note>
         </trans-unit>
         <trans-unit id="Report 1320963047 - NamedType 1635154260" size-unit="char" translate="yes" xml:space="preserve">
           <source>Please Choose the Excel File: </source>

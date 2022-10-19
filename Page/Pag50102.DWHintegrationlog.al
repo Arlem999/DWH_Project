@@ -1,9 +1,9 @@
-page 50102 "DWH integration log Arlem"
+page 50102 "DWH Integration Log Arlem"
 {
     ApplicationArea = All;
-    Caption = 'DWH integration log Arlem';
+    Caption = 'DWH Integration Log Arlem';
     PageType = List;
-    SourceTable = "DWH integration log Arlem";
+    SourceTable = "DWH Integration Log Arlem";
     UsageCategory = Lists;
 
     layout
@@ -12,33 +12,33 @@ page 50102 "DWH integration log Arlem"
         {
             repeater(General)
             {
-                field(LineNo; Rec.LineNo)
+                field(LineNo; Rec."Entry No.")
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Line No field.';
                 }
-                field(DebtorName; Rec.DebtorName)
+                field(DebtorName; Rec."Debtor Name")
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Name of the Debtor field.';
                 }
-                field(DebtorTaxCode; Rec.DebtorTaxCode)
+                field(DebtorTaxCode; Rec."Debtor Tax Code")
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Debtor Tax Code field.';
                 }
-                field(DebtorAddress; Rec.DebtorAddress)
+                field(DebtorAddress; Rec."Debtor Address")
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Debtor Address field.';
                 }
-                field(CaseID; Rec.CaseID)
+                field(CaseID; Rec."Case ID")
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Case ID field.';
                     ExtendedDatatype = Masked;
                 }
-                field(CaseExpirationDate; Rec.CaseExpirationDate)
+                field(CaseExpirationDate; Rec."Case Expiration Date")
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Case Expiration Date field.';
@@ -48,57 +48,57 @@ page 50102 "DWH integration log Arlem"
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the SDI field.';
                 }
-                field(DocumentType; Rec.DocumentType)
+                field(DocumentType; Rec."Document Type")
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Document Type field.';
                 }
-                field(TransactionID; Rec.TransactionID)
+                field(TransactionID; Rec."Transaction ID")
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the TransactionID field.';
                 }
-                field(PortfolioID; Rec.PortfolioID)
+                field(PortfolioID; Rec."Portfolio ID")
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Portfolio ID field.';
                 }
-                field(PortfolioName; Rec.PortfolioName)
+                field(PortfolioName; Rec."Portfolio Name")
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Portfolio Name field.';
                 }
-                field(BatchID; Rec.BatchID)
+                field(BatchID; Rec."Batch ID")
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Batch ID field.';
                 }
-                field(BatchName; Rec.BatchName)
+                field(BatchName; Rec."Batch Name")
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Batch Name field.';
                 }
-                field(SegmentID; Rec.SegmentID)
+                field(SegmentID; Rec."Segment ID")
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Segment ID field.';
                 }
-                field(SegmentName; Rec.SegmentName)
+                field(SegmentName; Rec."Segment Name")
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Segment Name field.';
                 }
-                field(FlowID; Rec.FlowID)
+                field(FlowID; Rec."Flow ID")
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Flow ID field.';
                 }
-                field(PostingDate; Rec.PostingDate)
+                field(PostingDate; Rec."Posting Date")
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Posting Date field.';
                 }
-                field(CurrencyCode; Rec.CurrencyCode)
+                field(CurrencyCode; Rec."Currency Code")
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Currency Code field.';
@@ -123,22 +123,22 @@ page 50102 "DWH integration log Arlem"
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Amount field.';
                 }
-                field(AccountType; Rec.AccountType)
+                field(AccountType; Rec."Account Type")
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Account Type field.';
                 }
-                field(AccountNo; Rec.AccountNo)
+                field(AccountNo; Rec."Account No.")
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Account No field.';
                 }
-                field(BalAccountType; Rec.BalAccountType)
+                field(BalAccountType; Rec."Bal Account Type")
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Bal Account Type field.';
                 }
-                field(BalAccountNo; Rec.BalAccountNo)
+                field(BalAccountNo; Rec."Bal Account No")
                 {
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Bal Account No field.';
@@ -153,20 +153,17 @@ page 50102 "DWH integration log Arlem"
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Invoiced field.';
                 }
-                field(meta_Chck; Rec.meta_Chck)
+                field(meta_Chck; Rec."meta Chck")
                 {
                     ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the meta_Chck field.';
                 }
-                field(meta_MarteInsertDate; Rec.meta_MarteInsertDate)
+                field(meta_MarteInsertDate; Rec."meta Marte Insert Date")
                 {
                     ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the meta_MarteInsertDate field.';
                 }
-                field(meta_DWHInsertDate; Rec.meta_DWHInsertDate)
+                field(meta_DWHInsertDate; Rec."meta DWH Insert Date")
                 {
                     ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the meta_DWHInsertDate field.';
                 }
             }
         }
@@ -187,21 +184,20 @@ page 50102 "DWH integration log Arlem"
 
                 trigger OnAction()
                 var
-                    DWHArchive: Record "DWH integration archive Arlem";
-                    DWHProcessl: Report "DWH Data processing";
+                    DWHArchive: Record "DWH Integration Archive Arlem";
+                    DWHProcessl: Report "DWH Data Processing";
                     ErrorMessage: Label 'Sorry there is nothing to do here';
                     ProcessSucess: Label 'Data is successfully procced.';
                 begin
-                    if Rec.FindSet() then begin
-                        repeat
-                            DWHArchive.TransferFields(Rec, true);
-                            if DWHArchive.Insert() then begin
-                                DWHProcessl.CreateSalesDocument(Rec);
-                                DWHProcessl.AddGenJournalLines(Rec);
-                            end;
-                        until Rec.Next() = 0;
-                    end else
-                        Message(ErrorMessage);
+                    // if Rec.FindSet() then begin
+                    //     repeat
+                    //        // if DWHProcessl.CreateSalesHeader(Rec) and DWHProcessl.AddGenJournalLines(Rec) then begin
+                    //             DWHArchive.TransferFields(Rec, true);
+                    //             DWHArchive.Insert(true);
+                    //         end;
+                    //     until Rec.Next() = 0;
+                    // end else
+                    //     Message(ErrorMessage);
                     Rec.DeleteAll();
                     Message(ProcessSucess);
                 end;
@@ -215,7 +211,7 @@ page 50102 "DWH integration log Arlem"
                 PromotedCategory = Process;
                 PromotedOnly = true;
                 PromotedIsBig = true;
-                RunObject = report "DWH Loading data";
+                RunObject = report "DWH Loading Data";
             }
             action("DWH Setup")
             {
@@ -226,7 +222,7 @@ page 50102 "DWH integration log Arlem"
                 PromotedCategory = Process;
                 PromotedOnly = true;
                 PromotedIsBig = true;
-                RunObject = page "DWH integration setup Arlem";
+                RunObject = page "DWH Integration Setup Arlem";
             }
         }
     }

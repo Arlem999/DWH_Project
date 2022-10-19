@@ -8,14 +8,12 @@ report 50100 "DWH Loading data"
 
     dataset
     {
-        dataitem("DWH integration log Arlem"; "DWH integration log Arlem")
+        dataitem("DWH Integration Log Arlem"; "DWH Integration Log Arlem")
         {
         }
     }
 
     var
-
-        ReqPage: Label 'Choose what you want to do before importing data';
         UploadMessage: Label 'Please Choose the Excel File: ';
         NoFileFoundMsg: Label 'File Not Found!';
         TempExcelBuffer: Record "Excel Buffer" temporary;
@@ -42,16 +40,8 @@ report 50100 "DWH Loading data"
 
     local procedure ImportExcelData()
     var
-        DWHintegLog: Record "DWH integration log Arlem";
         RowNo: Integer;
-        ColNo: Integer;
         MaxRowNo: Integer;
-        ExternalDocumentNo: Code[35];
-        AccountNo: Code[35];
-        PostingDate: Date;
-        AmountLCY: Decimal;
-        ShortcutDimension1Code: Code[20];
-        LineNo: Integer;
     begin
         ImportExcelFile();
 
@@ -60,38 +50,38 @@ report 50100 "DWH Loading data"
             MaxRowNo := TempExcelBuffer."Row No.";
         for RowNo := 2 to MaxRowNo do begin
             if GetValueAtCell(RowNo, 1) <> '' then begin
-                "DWH integration log Arlem".Init();
-                "DWH integration log Arlem".LineNo := 0;
-                "DWH integration log Arlem".DebtorName := GetValueAtCell(RowNo, 2);
-                "DWH integration log Arlem".DebtorTaxCode := GetValueAtCell(RowNo, 3);
-                "DWH integration log Arlem".DebtorAddress := GetValueAtCell(RowNo, 4);
-                "DWH integration log Arlem".CaseID := GetValueAtCell(RowNo, 5);
-                "DWH integration log Arlem".CaseExpirationDate := EvaluateDate(GetValueAtCell(RowNo, 6));
-                "DWH integration log Arlem".SDI := EvaluateDigit(GetValueAtCell(RowNo, 7));
-                Evaluate("DWH integration log Arlem".DocumentType, EvaluateOption(GetValueAtCell(RowNo, 8)));
-                "DWH integration log Arlem".TransactionID := GetValueAtCell(RowNo, 9);
-                "DWH integration log Arlem".PortfolioID := IfNotNull(GetValueAtCell(RowNo, 10));
-                "DWH integration log Arlem".PortfolioName := IfNotNull(GetValueAtCell(RowNo, 11));
-                "DWH integration log Arlem".BatchID := IfNotNull(GetValueAtCell(RowNo, 12));
-                "DWH integration log Arlem".BatchName := IfNotNull(GetValueAtCell(RowNo, 13));
-                "DWH integration log Arlem".SegmentID := IfNotNull(GetValueAtCell(RowNo, 14));
-                "DWH integration log Arlem".SegmentName := IfNotNull(GetValueAtCell(RowNo, 15));
-                "DWH integration log Arlem".FlowID := GetValueAtCell(RowNo, 16);
-                "DWH integration log Arlem".PostingDate := EvaluateDate(GetValueAtCell(RowNo, 17));
-                "DWH integration log Arlem".CurrencyCode := IfNotNull(GetValueAtCell(RowNo, 18));
-                "DWH integration log Arlem".Description := IfNotNull(GetValueAtCell(RowNo, 19));
-                "DWH integration log Arlem"."GL\Local Account" := IfNotNull(GetValueAtCell(RowNo, 20));
-                "DWH integration log Arlem".Amount := EvaluateDigit(GetValueAtCell(RowNo, 22));
-                "DWH integration log Arlem".AccountType := GetValueAtCell(RowNo, 23);
-                "DWH integration log Arlem".AccountNo := GetValueAtCell(RowNo, 24);
-                "DWH integration log Arlem".BalAccountType := IfNotNull(GetValueAtCell(RowNo, 25));
-                "DWH integration log Arlem".BalAccountNo := IfNotNull(GetValueAtCell(RowNo, 26));
-                "DWH integration log Arlem".Correction := GetBoolean(GetValueAtCell(RowNo, 27));
-                "DWH integration log Arlem".Invoiced := GetBoolean(GetValueAtCell(RowNo, 28));
-                Evaluate("DWH integration log Arlem".meta_Chck, EvaluateOption(GetValueAtCell(RowNo, 29)));
-                "DWH integration log Arlem".meta_MarteInsertDate := EvaluateDate(GetValueAtCell(RowNo, 30).Split(' ').Get(1));
-                "DWH integration log Arlem".meta_DWHInsertDate := EvaluateDate(GetValueAtCell(RowNo, 31).Split(' ').Get(1));
-                "DWH integration log Arlem".Insert();
+                "DWH Integration Log Arlem".Init();
+                "DWH Integration Log Arlem"."Entry No." := 0;
+                "DWH Integration Log Arlem"."Debtor Name" := GetValueAtCell(RowNo, 2);
+                "DWH Integration Log Arlem"."Debtor Tax Code" := GetValueAtCell(RowNo, 3);
+                "DWH Integration Log Arlem"."Debtor Address" := GetValueAtCell(RowNo, 4);
+                "DWH Integration Log Arlem"."Case ID" := GetValueAtCell(RowNo, 5);
+                "DWH Integration Log Arlem"."Case Expiration Date" := EvaluateDate(GetValueAtCell(RowNo, 6));
+                "DWH Integration Log Arlem".SDI := EvaluateDigit(GetValueAtCell(RowNo, 7));
+                Evaluate("DWH Integration Log Arlem"."Document Type", EvaluateOption(GetValueAtCell(RowNo, 8)));
+                "DWH Integration Log Arlem"."Transaction ID" := GetValueAtCell(RowNo, 9);
+                "DWH Integration Log Arlem"."Portfolio ID" := IfNotNull(GetValueAtCell(RowNo, 10));
+                "DWH Integration Log Arlem"."Portfolio Name" := IfNotNull(GetValueAtCell(RowNo, 11));
+                "DWH Integration Log Arlem"."Batch ID" := IfNotNull(GetValueAtCell(RowNo, 12));
+                "DWH Integration Log Arlem"."Batch Name" := IfNotNull(GetValueAtCell(RowNo, 13));
+                "DWH Integration Log Arlem"."Segment ID" := IfNotNull(GetValueAtCell(RowNo, 14));
+                "DWH Integration Log Arlem"."Segment Name" := IfNotNull(GetValueAtCell(RowNo, 15));
+                "DWH Integration Log Arlem"."Flow ID" := GetValueAtCell(RowNo, 16);
+                "DWH Integration Log Arlem"."Posting Date" := EvaluateDate(GetValueAtCell(RowNo, 17));
+                "DWH Integration Log Arlem"."Currency Code" := IfNotNull(GetValueAtCell(RowNo, 18));
+                "DWH Integration Log Arlem".Description := IfNotNull(GetValueAtCell(RowNo, 19));
+                "DWH Integration Log Arlem"."GL\Local Account" := IfNotNull(GetValueAtCell(RowNo, 20));
+                "DWH Integration Log Arlem".Amount := EvaluateDigit(GetValueAtCell(RowNo, 22));
+                "DWH Integration Log Arlem"."Account Type" := GetValueAtCell(RowNo, 23);
+                "DWH Integration Log Arlem"."Account No." := GetValueAtCell(RowNo, 24);
+                "DWH Integration Log Arlem"."Bal Account Type" := IfNotNull(GetValueAtCell(RowNo, 25));
+                "DWH Integration Log Arlem"."Bal Account No" := IfNotNull(GetValueAtCell(RowNo, 26));
+                "DWH Integration Log Arlem".Correction := GetBoolean(GetValueAtCell(RowNo, 27));
+                "DWH Integration Log Arlem".Invoiced := GetBoolean(GetValueAtCell(RowNo, 28));
+                Evaluate("DWH Integration Log Arlem"."meta Chck", EvaluateOption(GetValueAtCell(RowNo, 29)));
+                "DWH Integration Log Arlem"."meta Marte Insert Date" := EvaluateDate(GetValueAtCell(RowNo, 30).Split(' ').Get(1));
+                "DWH Integration Log Arlem"."meta DWH Insert Date" := EvaluateDate(GetValueAtCell(RowNo, 31).Split(' ').Get(1));
+                "DWH Integration Log Arlem".Insert();
             end;
         end;
     end;
@@ -147,13 +137,6 @@ report 50100 "DWH Loading data"
     begin
         If Boolean <> '1' then
             exit(false);
-    end;
-
-    trigger OnPostReport()
-    var
-        DWHintegerLog: Record "DWH integration log Arlem";
-    begin
-
     end;
 
     trigger OnPreReport()

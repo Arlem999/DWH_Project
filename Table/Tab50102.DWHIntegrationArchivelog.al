@@ -5,32 +5,34 @@ table 50102 "DWH integration archive Arlem"
 
     fields
     {
-        field(1; LineNo; Integer)
+        field(1; "Entry No."; Integer)
         {
-            Caption = 'Line No';
-            DataClassification = ToBeClassified;
+            Caption = 'Entry No.';
+            trigger OnValidate()
+            var
+                myInt: Integer;
+            begin
+                "Entry No." += Rec.Count;
+            end;
         }
-        field(2; DebtorName; Text[30])
+        field(2; "Debtor Name"; Text[30])
         {
             Caption = 'Name of the Debtor';
-            DataClassification = ToBeClassified;
         }
-        field(3; DebtorTaxCode; Code[30])
+        field(3; "Debtor Tax Code"; Code[30])
         {
             Caption = 'Debtor Tax Code';
-            DataClassification = ToBeClassified;
         }
-        field(4; DebtorAddress; Text[250])
+        field(4; "Debtor Address"; Text[250])
         {
             Caption = 'Debtor Address';
-            DataClassification = ToBeClassified;
         }
-        field(5; CaseID; Text[20])
+        field(5; "Case ID"; Text[20])
         {
             Caption = 'Case ID';
             DataClassification = ToBeClassified;
         }
-        field(6; CaseExpirationDate; Date)
+        field(6; "Case Expiration Date"; Date)
         {
             Caption = 'Case Expiration Date';
             DataClassification = ToBeClassified;
@@ -40,58 +42,58 @@ table 50102 "DWH integration archive Arlem"
             Caption = 'SDI';
             DataClassification = ToBeClassified;
         }
-        field(8; "DocumentType"; Option)
+        field(8; "Document Type"; Option)
         {
             Caption = 'Document Type';
             DataClassification = ToBeClassified;
             OptionMembers = "Payment","Refund","Invoice";
         }
-        field(9; TransactionID; Text[20])
+        field(9; "Transaction ID"; Text[20])
         {
             Caption = 'TransactionID';
             DataClassification = ToBeClassified;
         }
-        field(10; PortfolioID; Code[6])
+        field(10; "Portfolio ID"; Code[6])
         {
             Caption = 'Portfolio ID';
             DataClassification = ToBeClassified;
         }
-        field(11; PortfolioName; Code[6])
+        field(11; "Portfolio Name"; Code[6])
         {
             Caption = 'Portfolio Name';
             DataClassification = ToBeClassified;
         }
-        field(12; BatchID; Code[6])
+        field(12; "Batch ID"; Code[6])
         {
             Caption = 'Batch ID';
             DataClassification = ToBeClassified;
         }
-        field(13; BatchName; Text[50])
+        field(13; "Batch Name"; Text[50])
         {
             Caption = 'Batch Name';
             DataClassification = ToBeClassified;
         }
-        field(14; SegmentID; Text[50])
+        field(14; "Segment ID"; Text[50])
         {
             Caption = 'Segment ID';
             DataClassification = ToBeClassified;
         }
-        field(15; SegmentName; Text[50])
+        field(15; "Segment Name"; Text[50])
         {
             Caption = 'Segment Name';
             DataClassification = ToBeClassified;
         }
-        field(16; FlowID; Text[50])
+        field(16; "Flow ID"; Text[50])
         {
             Caption = 'Flow ID';
             DataClassification = ToBeClassified;
         }
-        field(17; PostingDate; Date)
+        field(17; "Posting Date"; Date)
         {
             Caption = 'Posting Date';
             DataClassification = ToBeClassified;
         }
-        field(18; CurrencyCode; Code[10])
+        field(18; "Currency Code"; Code[10])
         {
             Caption = 'Currency Code';
             DataClassification = ToBeClassified;
@@ -117,22 +119,22 @@ table 50102 "DWH integration archive Arlem"
             Caption = 'Amount';
             DataClassification = ToBeClassified;
         }
-        field(23; "AccountType"; Code[20])
+        field(23; "Account Type"; Code[20])
         {
             Caption = 'Account Type';
             DataClassification = ToBeClassified;
         }
-        field(24; "AccountNo"; Code[20])
+        field(24; "Account No."; Code[20])
         {
             Caption = 'Account No';
             DataClassification = ToBeClassified;
         }
-        field(25; "BalAccountType"; Code[20])
+        field(25; "Bal Account Type"; Code[20])
         {
             Caption = 'Bal Account Type';
             DataClassification = ToBeClassified;
         }
-        field(26; "BalAccountNo"; Code[20])
+        field(26; "Bal Account No"; Code[20])
         {
             Caption = 'Bal Account No';
             DataClassification = ToBeClassified;
@@ -147,28 +149,29 @@ table 50102 "DWH integration archive Arlem"
             Caption = 'Invoiced';
             DataClassification = ToBeClassified;
         }
-        field(29; meta_Chck; Option)
+        field(29; "meta Chck"; Option)
         {
             Caption = 'meta_Chck';
             OptionMembers = "Payment","Invoice","Expense";
             DataClassification = ToBeClassified;
         }
-        field(30; meta_MarteInsertDate; Date)
+        field(30; "meta Marte Insert Date"; Date)
         {
-            Caption = 'meta_MarteInsertDate';
+            Caption = 'meta MarteInsertDate';
             DataClassification = ToBeClassified;
         }
-        field(31; meta_DWHInsertDate; Date)
+        field(31; "meta DWH Insert Date"; Date)
         {
-            Caption = 'meta_DWHInsertDate';
+            Caption = 'meta DWHInsertDate';
             DataClassification = ToBeClassified;
         }
     }
     keys
     {
-        key(PK; LineNo)
+        key(PK; "Entry No.")
         {
             Clustered = true;
         }
     }
 }
+

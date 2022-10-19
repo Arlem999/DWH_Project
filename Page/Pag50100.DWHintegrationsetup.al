@@ -72,7 +72,9 @@ page 50100 "DWH integration setup Arlem"
     }
     trigger OnOpenPage()
     begin
-        if Rec.IsEmpty() then
-            Rec.Insert(true)
+        if not Rec.Get then begin
+            Rec.Init;
+            Rec.Insert;
+        end;
     end;
 }
