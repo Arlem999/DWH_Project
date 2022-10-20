@@ -4,7 +4,7 @@ pageextension 50103 "General Journal Ext" extends "General Journal"
     {
         addafter("Document No.")
         {
-            field(CaseID; Rec."Case ID")
+            field(CaseID; Rec."Case ID Arlem")
             {
             }
         }

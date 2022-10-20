@@ -533,6 +533,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Control TransactionID - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3823472908 - Action 637971660 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transfer data from archive to Log Arlem</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Action Transfer data from archive to Log - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3823472908 - Action 637971660 - Method 1377591017 - NamedType 2763291245" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sorry there is nothing to do here</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Action Transfer data from archive to Log - Method OnAction - NamedType ErrorMessage</note>
+        </trans-unit>
+        <trans-unit id="Page 3823472908 - Action 637971660 - Method 1377591017 - NamedType 2945685525" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data is successfully procced.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Action Transfer data from archive to Log - Method OnAction - NamedType ProcessSucess</note>
+        </trans-unit>
         <trans-unit id="Page 1092771794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>DWH Integration Log Arlem</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -787,6 +802,56 @@
           <source>Please Choose the Excel File: </source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report DWH Loading data - NamedType UploadMessage</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Action 1173367936 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Clear personal data Arlem</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Action Clear client's personal data - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1183321529 - Field 3335136002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2733917450">
+          <source>Case ID Arlem</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Cust. Ledger Entry Ext - Field Case ID Arlem - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2204447775 - Field 3335136002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Case ID Arlem</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer Ext - Field Case ID Arlem - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2204447775 - Field 4225414267 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Case ID Expir Date Arlem</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer Ext - Field Case ID Expiration Date Arlem - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2204447775 - Field 3919120948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Fiscal Code Arlem</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer Ext - Field Fiscal Code Arlem - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2204447775 - Field 828095107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>SDI Arlem</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer Ext - Field SDI Arlem - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 71500435 - Field 3335136002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2825951060">
+          <source>Case ID Arlem</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension G/L Entry Ext - Field Case ID Arlem - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2502354840 - Field 3335136002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
+          <source>Case ID Arlem</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Gen. Journal Line Ext - Field Case ID Arlem - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1556408509 - Field 3335136002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Case ID Arlem</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Cr.Memo Header Ext - Field Case ID Arlem - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 281671065 - Field 3335136002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Case ID Arlem</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Invoice Header Ext - Field Case ID Arlem - Property Caption</note>
         </trans-unit>
       </group>
     </body>

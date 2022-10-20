@@ -4,7 +4,7 @@ pageextension 50100 "Customer Ledger Entries Ext" extends "Customer Ledger Entri
     {
         addafter("Document No.")
         {
-            field(CaseID; Rec."Case ID")
+            field(CaseID; Rec."Case ID Arlem")
             {
             }
         }

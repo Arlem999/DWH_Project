@@ -5,7 +5,7 @@ page 50101 "DWH Integration Archive Arlem"
     PageType = List;
     SourceTable = "DWH integration archive Arlem";
     UsageCategory = History;
-    // Editable = false;
+    Editable = false;
 
     layout
     {
@@ -166,6 +166,39 @@ page 50101 "DWH Integration Archive Arlem"
                 {
                     ApplicationArea = All;
                 }
+            }
+        }
+    }
+    actions
+    {
+        area(Processing)
+        {
+            action("Transfer data from archive to Log")
+            {
+                Caption = 'Transfer data from archive to Log Arlem';
+                Promoted = true;
+                ApplicationArea = All;
+                Image = TransferOrder;
+                PromotedCategory = Process;
+                PromotedOnly = true;
+                PromotedIsBig = true;
+
+                trigger OnAction()
+                var
+                    DWHLog: Record "DWH Integration Log Arlem";
+                    ErrorMessage: Label 'Sorry there is nothing to do here';
+                    ProcessSucess: Label 'Data is successfully procced.';
+                begin
+                    if Rec.FindSet() then begin
+                        repeat
+                            DWHLog.TransferFields(Rec, true);
+                            DWHLog.Insert(true);
+                        until Rec.Next() = 0;
+                    end else
+                        Message(ErrorMessage);
+                    Rec.DeleteAll();
+                    Message(ProcessSucess);
+                end;
             }
         }
     }

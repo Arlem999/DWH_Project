@@ -1,4 +1,4 @@
-report 50103 "DWH Data Processsing"
+report 50103 "DWH Data Processing"
 {
     Caption = 'DWH Data Processing Arlem';
     UsageCategory = ReportsAndAnalysis;
@@ -27,12 +27,12 @@ report 50103 "DWH Data Processsing"
             SalesHeader.Validate("Document Type", SalesHeader."Document Type"::"Credit Memo");
         SalesHeader.Validate("No.", NoSeriesMgt.GetNextNo(SalesHeader.GetNoSeriesCode(), DWHRecord."Posting Date", true));
 
-        Customer.SetRange("Case ID", DWHRecord."Case ID");
+        Customer.SetRange("Case ID Arlem", DWHRecord."Case ID");
         if (Customer.FindFirst) then
             SalesHeader.Validate("Sell-to Customer No.", Customer."No.")
         else begin
             CreateCustomer(DWHRecord);
-            Customer.SetRange("Case ID", DWHRecord."Case ID");
+            Customer.SetRange("Case ID Arlem", DWHRecord."Case ID");
             SalesHeader.Validate("Sell-to Customer No.", Customer."No.")
         end;
 
@@ -74,25 +74,25 @@ report 50103 "DWH Data Processsing"
         SalesReceivablesSetup.Get();
         Customer.Init();
         Customer."No." := NoSeriesMgt.GetNextNo(SalesReceivablesSetup."Customer Nos.", DWHRecord."Posting Date", true);
-        Customer.Validate("Case ID", DWHRecord."Case ID");
+        Customer.Validate("Case ID Arlem", DWHRecord."Case ID");
         Customer.Validate(Name, DWHRecord."Debtor Name");
 
         if (Format(DWHRecord."Debtor Tax Code").Contains('-')) then begin
-            Customer.Validate("Fiscal Code", Format(DWHRecord."Debtor Tax Code").Split('-').Get(1));
+            Customer.Validate("Fiscal Code Arlem", Format(DWHRecord."Debtor Tax Code").Split('-').Get(1));
             Customer.Validate("VAT Registration No.", Format(DWHRecord."Debtor Tax Code").Split('-').Get(2));
         end else
             if Evaluate(TaxCode, DWHRecord."Debtor Tax Code") then
                 Customer.Validate("VAT Registration No.", DWHRecord."Debtor Tax Code")
             else
-                Customer.Validate("Fiscal Code", DWHRecord."Debtor Tax Code");
+                Customer.Validate("Fiscal Code Arlem", DWHRecord."Debtor Tax Code");
 
         if (DWHRecord."Debtor Address" <> '') then begin
             Customer.Validate(Address, DWHRecord."Debtor Address".Substring(1, StrLen(DWHRecord."Debtor Address") - 5));
             Customer.Validate("Post Code", DWHRecord."Debtor Address".Substring(StrLen(DWHRecord."Debtor Address") - 5));
         end;
 
-        Customer.Validate("Case ID Expiration Date", DWHRecord."Case Expiration Date");
-        Customer.Validate(SDI, DWHRecord.SDI);
+        Customer.Validate("Case ID Expiration Date Arlem", DWHRecord."Case Expiration Date");
+        Customer.Validate("SDI Arlem", DWHRecord.SDI);
         DWHsetup.Get();
         Customer.Validate("Gen. Bus. Posting Group", DWHsetup."Default Gen. Bus. Post. Group");
         Customer.Validate("VAT Bus. Posting Group", DWHsetup."Default VAT Bus. Posting Group");
@@ -125,14 +125,10 @@ report 50103 "DWH Data Processsing"
     var
         DimensionCode: Text[20];
     begin
-        if DWHRecord."Portfolio ID" <> '' then
-            DimensionCode := DWHRecord."Portfolio ID";
-        if DWHRecord."Batch ID" <> '' then
-            DimensionCode += DWHRecord."Batch ID";
-        if DWHRecord."Segment ID" <> '' then begin
-            DimensionCode += DWHRecord."Segment ID";
-            if StrLen(DimensionCode) <> 7 then //// to do
-                exit(DimensionCode);
+        if (DWHRecord."Portfolio ID" <> '') and (DWHRecord."Batch ID" <> '') and (DWHRecord."Segment ID" <> '') then begin
+            Evaluate(DimensionCode, '000' + (DWHRecord."Portfolio ID") +
+                        '.00' + DWHRecord."Batch ID" + '.0' + DWHRecord."Segment ID");
+            exit(DimensionCode);
         end else
             exit('000000');
     end;

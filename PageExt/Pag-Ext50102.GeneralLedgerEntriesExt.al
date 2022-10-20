@@ -4,7 +4,7 @@ pageextension 50102 "General Ledger Entries Ext" extends "General Ledger Entries
     {
         addafter("Document No.")
         {
-            field(CaseID; Rec."Case ID")
+            field(CaseID; Rec."Case ID Arlem")
             {
             }
         }

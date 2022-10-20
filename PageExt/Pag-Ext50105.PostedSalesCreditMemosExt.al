@@ -4,7 +4,7 @@ pageextension 50105 "Posted Sales Credit Memos Ext" extends "Posted Sales Credit
     {
         addafter("No.")
         {
-            field(CaseID; Rec."Case ID")
+            field(CaseID; Rec."Case ID Arlem")
             {
             }
         }

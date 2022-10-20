@@ -4,10 +4,10 @@ pageextension 50101 "Customer Card Ext" extends "Customer Card"
     {
         addafter(Name)
         {
-            field(CaseID; Rec."Case ID")
+            field(CaseID; Rec."Case ID Arlem")
             {
             }
-            field("Case ID Expiration Date"; Rec."Case ID Expiration Date")
+            field("Case ID Expiration Date"; Rec."Case ID Expiration Date Arlem")
             {
             }
         }
@@ -15,10 +15,10 @@ pageextension 50101 "Customer Card Ext" extends "Customer Card"
         addafter(Blocked)
         {
 
-            field("Fiscal Code"; Rec."Fiscal Code")
+            field("Fiscal Code"; Rec."Fiscal Code Arlem")
             {
             }
-            field(SDI; Rec.SDI)
+            field(SDI; Rec."SDI Arlem")
             {
             }
         }
