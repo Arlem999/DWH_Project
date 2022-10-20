@@ -4,22 +4,22 @@ tableextension 50100 "Customer Ext" extends Customer
     {
         field(50100; "Case ID"; Text[20])
         {
-            Caption = 'Case ID';
+            Caption = 'Case ID Arlem';
             DataClassification = ToBeClassified;
         }
         field(50101; "Case ID Expiration Date"; Date)
         {
-            Caption = 'Case ID Expiration Date';
+            Caption = 'Case ID Expir Date Arlem';
             DataClassification = ToBeClassified;
         }
         field(50102; "Fiscal Code"; Text[15])
         {
-            Caption = 'Fiscal Code';
+            Caption = 'Fiscal Code Arlem';
             DataClassification = ToBeClassified;
         }
         field(50103; "SDI"; Integer)
         {
-            Caption = 'SDI';
+            Caption = 'SDI Arlem';
             DataClassification = ToBeClassified;
         }
     }
