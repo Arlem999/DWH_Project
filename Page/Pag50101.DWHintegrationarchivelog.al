@@ -190,13 +190,14 @@ page 50101 "DWH Integration Archive Arlem"
                     ProcessSucess: Label 'Data is successfully procced.';
                 begin
                     if Rec.FindSet() then begin
+                        CurrPage.SetSelectionFilter(Rec);
                         repeat
                             DWHLog.TransferFields(Rec, true);
-                            DWHLog.Insert(true);
+                            DWHLog.Insert();
+                            Rec.Delete();
                         until Rec.Next() = 0;
                     end else
                         Message(ErrorMessage);
-                    Rec.DeleteAll();
                     Message(ProcessSucess);
                 end;
             }

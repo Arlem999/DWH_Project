@@ -32,11 +32,15 @@ pageextension 50101 "Customer Card Ext" extends "Customer Card"
                 Caption = 'Clear personal data Arlem';
                 Image = ClearLog;
                 Promoted = true;
-                PromotedCategory = Category9;
+                PromotedCategory = Process;
+                PromotedOnly = true;
+                PromotedIsBig = true;
 
                 trigger OnAction()
+                var
+                    DeleteCustData: Report "DWH Del personalDataOf debtors";
                 begin
-                    Message('"Hello"');
+                    DeleteCustData.Run();
                 end;
             }
         }

@@ -8,12 +8,6 @@ table 50102 "DWH integration archive Arlem"
         field(1; "Entry No."; Integer)
         {
             Caption = 'Entry No.';
-            trigger OnValidate()
-            var
-                myInt: Integer;
-            begin
-                "Entry No." += Rec.Count;
-            end;
         }
         field(2; "Debtor Name"; Text[30])
         {

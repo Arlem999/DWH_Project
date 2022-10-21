@@ -783,10 +783,25 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report DWH Data Processing - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 2888397148 - NamedType 3384904669" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PORTAFOGLIO</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DWH Data Processing - NamedType DimensValue</note>
+        </trans-unit>
         <trans-unit id="Report 118285402 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>DWH Del personalDataOf debtors Arlem</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report DWH Del personalDataOf debtors - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 118285402 - NamedType 3123527090" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot delete the debtor`s %1 personal data, because Case ID expired data are not over yet</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DWH Del personalDataOf debtors - NamedType Info</note>
+        </trans-unit>
+        <trans-unit id="Report 118285402 - Method 2736589801 - NamedType 3878926381" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data deletion successfully completed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DWH Del personalDataOf debtors - Method OnPostReport - NamedType Success</note>
         </trans-unit>
         <trans-unit id="Report 1320963047 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>DWH Loading data Arlem</source>
