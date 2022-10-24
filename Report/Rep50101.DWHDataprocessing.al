@@ -20,16 +20,16 @@ report 50101 "DWH Data Processing"
 
     procedure CreateSalesHeader(DWHRecord: Record "DWH Integration Log Arlem"): Boolean
     begin
+        SalesHeader.Init();
         Customer.SetRange("Case ID Arlem", DWHRecord."Case ID");
         if (Customer.FindFirst) then
             SalesHeader.Validate("Sell-to Customer No.", Customer."No.")
         else begin
             CreateCustomer(DWHRecord);
             Customer.SetRange("Case ID Arlem", DWHRecord."Case ID");
-            SalesHeader.Validate("Sell-to Customer No.", Customer."No.")
+            SalesHeader.Validate("Sell-to Customer No.", Customer."No.");
         end;
 
-        SalesHeader.Init();
         if (DWHRecord."Document Type" = DWHRecord."Document Type"::Invoice) and (DWHRecord.Correction = false) and (DWHRecord.Invoiced = true) then
             SalesHeader.Validate("Document Type", SalesHeader."Document Type"::Invoice)
         else
@@ -38,14 +38,17 @@ report 50101 "DWH Data Processing"
         SalesHeader.Validate("No.", NoSeriesMgt.GetNextNo(SalesHeader.GetNoSeriesCode(), DWHRecord."Posting Date", true));
         SalesHeader.Validate("Posting Date", DWHRecord."Posting Date");
         SalesHeader.Validate("Document Date", DWHRecord."Posting Date");
-        CreateDimension(DWHRecord);
-        SalesHeader.ValidateShortcutDimCode(GetShortcutFieldNo(DimensValue), DimensionCode);
         SalesHeader."Currency Code" := DWHRecord."Currency Code";
         SalesHeader.Validate("Posting Description", DWHRecord.Description + DWHRecord."Transaction ID");
         SalesHeader.Validate(Correction, DWHRecord.Correction);
         SalesHeader.Validate("Bal. Account Type");
-        If (SalesHeader.Insert(true)) and (CreateLines(DWHRecord)) then
-            exit(true);
+        If (SalesHeader.Insert(true)) then begin
+            CreateDimension(DWHRecord);
+            SalesHeader.ValidateShortcutDimCode(GetShortcutFieldNo(DimensValue), DimensionCode);
+            SalesHeader.Modify();
+            if CreateLines(DWHRecord) then
+                exit(true);
+        end;
     end;
 
     local procedure CreateLines(DWHRecord: Record "DWH Integration Log Arlem"): Boolean
@@ -75,26 +78,25 @@ report 50101 "DWH Data Processing"
         Customer.Validate(Name, DWHRecord."Debtor Name");
 
         if (Format(DWHRecord."Debtor Tax Code").Contains('-')) then begin
-            Customer.Validate("Fiscal Code Arlem", Format(DWHRecord."Debtor Tax Code").Split('-').Get(1));
+            Customer.Validate("Fiscal Code Arlem", Format(DWHRecord."Debtor Tax Code").Split('-').Get(1).Remove(1));
             Customer.Validate("VAT Registration No.", Format(DWHRecord."Debtor Tax Code").Split('-').Get(2));
         end else
             if Evaluate(TaxCode, DWHRecord."Debtor Tax Code") then
                 Customer.Validate("VAT Registration No.", DWHRecord."Debtor Tax Code")
             else
-                Customer.Validate("Fiscal Code Arlem", DWHRecord."Debtor Tax Code");
+                Customer.Validate("Fiscal Code Arlem", Format(DWHRecord."Debtor Tax Code").Remove(1));
 
-        if (DWHRecord."Debtor Address" <> '') then begin
+        if (DWHRecord."Debtor Address" <> '  ') then begin
             Customer.Validate(Address, DWHRecord."Debtor Address".Substring(1, StrLen(DWHRecord."Debtor Address") - 5));
             Customer.Validate("Post Code", DWHRecord."Debtor Address".Substring(StrLen(DWHRecord."Debtor Address") - 5));
         end;
-
         Customer.Validate("Case ID Expiration Date Arlem", DWHRecord."Case Expiration Date");
         Customer.Validate("SDI Arlem", DWHRecord.SDI);
         DWHsetup.Get();
         Customer.Validate("Gen. Bus. Posting Group", DWHsetup."Default Gen. Bus. Post. Group");
         Customer.Validate("VAT Bus. Posting Group", DWHsetup."Default VAT Bus. Posting Group");
         Customer.Validate("Customer Posting Group", DWHsetup."Default Customer Posting Group");
-        Customer.Insert();
+        Customer.Insert(true);
     end;
 
     procedure GetShortcutFieldNo(DimensionCode: Code[20]): Integer
@@ -118,7 +120,7 @@ report 50101 "DWH Data Processing"
             exit(8);
     end;
 
-    procedure CreateDimension(DWHRecord: Record "DWH integration log Arlem")
+    procedure CreateDimension(DWHRecord: Record "DWH integration log Arlem"): code[20]
     begin
         if (DWHRecord."Portfolio ID" <> '') and (DWHRecord."Batch ID" <> '') and (DWHRecord."Segment ID" <> '') then
             Evaluate(DimensionCode, '000' + (DWHRecord."Portfolio ID") + '.00' + DWHRecord."Batch ID" + '.0' + DWHRecord."Segment ID")
@@ -139,6 +141,7 @@ report 50101 "DWH Data Processing"
             DimensionValues.Validate(Name, DimensionCode);
             DimensionValues.Modify(true);
         end;
+        exit(DimensionCode);
     end;
 
     procedure CreateGenJournalLines(DWHRecord: Record "DWH integration log Arlem"): Boolean
@@ -156,6 +159,7 @@ report 50101 "DWH Data Processing"
         GenJournal.Validate("Journal Batch Name", DWHsetup."Expense General Journal Batch");
         GenJournal.Validate("Line No.", LineNo + 10000);
         GenJournal.Validate("Posting Date", WorkDate());
+        GenJournal.Validate("Document No.", DWHRecord."Transaction ID");
 
         if (DWHRecord."Document Type" = DWHRecord."Document Type"::Payment) then begin
             GenJournal.Validate("Document Type", GenJournal."Document Type"::Payment);
@@ -179,9 +183,8 @@ report 50101 "DWH Data Processing"
         GenJournal."Currency Code" := DWHRecord."Currency Code";
         if (DWHRecord."Document Type" = DWHRecord."Document Type"::Payment) then
             DWHRecord.Amount := (-1) * DWHRecord.Amount;
-
-        GenJournal.Validate(Amount, DWHRecord.Amount);
         GenJournal.ValidateShortcutDimCode(GetShortcutFieldNo(DimensValue), DimensionCode);
+        GenJournal.Validate(Amount, DWHRecord.Amount);
         if GenJournal.Insert() then
             exit(true);
     end;

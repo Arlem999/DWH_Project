@@ -54,7 +54,7 @@ report 50100 "DWH Loading data"
                 "DWH Integration Log Arlem"."Entry No." := 0;
                 "DWH Integration Log Arlem"."Debtor Name" := GetValueAtCell(RowNo, 2);
                 "DWH Integration Log Arlem"."Debtor Tax Code" := GetValueAtCell(RowNo, 3);
-                "DWH Integration Log Arlem"."Debtor Address" := GetValueAtCell(RowNo, 4);
+                "DWH Integration Log Arlem"."Debtor Address" := IfNotNull(GetValueAtCell(RowNo, 4));
                 "DWH Integration Log Arlem"."Case ID" := GetValueAtCell(RowNo, 5);
                 "DWH Integration Log Arlem"."Case Expiration Date" := EvaluateDate(GetValueAtCell(RowNo, 6));
                 "DWH Integration Log Arlem".SDI := EvaluateDigit(GetValueAtCell(RowNo, 7));
@@ -127,7 +127,7 @@ report 50100 "DWH Loading data"
 
     local procedure IfNotNull(Text: Text): Text
     begin
-        If Text <> 'NULL' then
+        If (Text <> 'NULL') and (Text <> '  ') then
             exit(Text)
         else
             exit('');

@@ -798,10 +798,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report DWH Del personalDataOf debtors - NamedType Info</note>
         </trans-unit>
-        <trans-unit id="Report 118285402 - Method 2736589801 - NamedType 3878926381" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 118285402 - NamedType 3878926381" size-unit="char" translate="yes" xml:space="preserve">
           <source>Data deletion successfully completed</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report DWH Del personalDataOf debtors - Method OnPostReport - NamedType Success</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DWH Del personalDataOf debtors - NamedType Success</note>
         </trans-unit>
         <trans-unit id="Report 1320963047 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>DWH Loading data Arlem</source>

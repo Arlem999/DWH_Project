@@ -13,6 +13,7 @@ report 50102 "DWH Del personalDataOf debtors"
 
     var
         Info: Label 'You cannot delete the debtor`s %1 personal data, because Case ID expired data are not over yet';
+        Success: Label 'Data deletion successfully completed';
 
     trigger OnPreReport()
     begin
@@ -28,13 +29,7 @@ report 50102 "DWH Del personalDataOf debtors"
                     end else
                         Message(Info, Customer.Name);
             until Customer.Next() = 0;
+            Message(Success);
         end;
-    end;
-
-    trigger OnPostReport()
-    var
-        Success: Label 'Data deletion successfully completed';
-    begin
-        Message(Success);
     end;
 }

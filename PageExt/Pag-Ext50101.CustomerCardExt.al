@@ -25,7 +25,7 @@ pageextension 50101 "Customer Card Ext" extends "Customer Card"
     }
     actions
     {
-        addafter(ApplyTemplate)
+        addafter("Customer G/L Turnover")
         {
             action("Clear client's personal data")
             {
