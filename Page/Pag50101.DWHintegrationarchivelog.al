@@ -185,20 +185,10 @@ page 50101 "DWH Integration Archive Arlem"
 
                 trigger OnAction()
                 var
-                    DWHLog: Record "DWH Integration Log Arlem";
-                    ErrorMessage: Label 'Sorry there is nothing to do here';
-                    ProcessSucess: Label 'Data is successfully procced.';
+                    DWHDelpersonalData: Report "DWH Del personalDataOf debtors";
                 begin
-                    if Rec.FindSet() then begin
-                        CurrPage.SetSelectionFilter(Rec);
-                        repeat
-                            DWHLog.TransferFields(Rec, true);
-                            DWHLog.Insert();
-                            Rec.Delete();
-                        until Rec.Next() = 0;
-                    end else
-                        Message(ErrorMessage);
-                    Message(ProcessSucess);
+                    CurrPage.SetSelectionFilter(Rec);
+                    DWHDelpersonalData.TransferFields(Rec);
                 end;
             }
         }

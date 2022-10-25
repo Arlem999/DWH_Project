@@ -553,16 +553,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Action Transfer data from archive to Log - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3823472908 - Action 637971660 - Method 1377591017 - NamedType 2763291245" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Sorry there is nothing to do here</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Action Transfer data from archive to Log - Method OnAction - NamedType ErrorMessage</note>
-        </trans-unit>
-        <trans-unit id="Page 3823472908 - Action 637971660 - Method 1377591017 - NamedType 2945685525" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Data is successfully procced.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Archive Arlem - Action Transfer data from archive to Log - Method OnAction - NamedType ProcessSucess</note>
-        </trans-unit>
         <trans-unit id="Page 1092771794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>DWH Integration Log Arlem</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -723,16 +713,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Action Process All Data - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1092771794 - Action 1500081518 - Method 1377591017 - NamedType 2763291245" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Sorry there is nothing to do here</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Action Process All Data - Method OnAction - NamedType ErrorMessage</note>
-        </trans-unit>
-        <trans-unit id="Page 1092771794 - Action 1500081518 - Method 1377591017 - NamedType 2945685525" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Data is successfully procced.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page DWH Integration Log Arlem - Action Process All Data - Method OnAction - NamedType ProcessSucess</note>
-        </trans-unit>
         <trans-unit id="Page 517359439 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>DWH integration setup Arlem</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -818,20 +798,40 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report DWH Data Processing - NamedType DimensValue</note>
         </trans-unit>
+        <trans-unit id="Report 2888397148 - Method 1544076788 - NamedType 2763291245" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sorry there is nothing to do here</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DWH Data Processing - Method OnPreReport - NamedType ErrorMessage</note>
+        </trans-unit>
+        <trans-unit id="Report 2888397148 - Method 1544076788 - NamedType 2945685525" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data is successfully procced.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DWH Data Processing - Method OnPreReport - NamedType ProcessSucess</note>
+        </trans-unit>
         <trans-unit id="Report 118285402 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>DWH Del personalDataOf debtors Arlem</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report DWH Del personalDataOf debtors - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 118285402 - NamedType 3123527090" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 118285402 - Method 518508049 - NamedType 3123527090" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot delete the debtor`s %1 personal data, because Case ID expired data are not over yet</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report DWH Del personalDataOf debtors - NamedType Info</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DWH Del personalDataOf debtors - Method ChangeCustData - NamedType Info</note>
         </trans-unit>
-        <trans-unit id="Report 118285402 - NamedType 3878926381" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 118285402 - Method 518508049 - NamedType 3878926381" size-unit="char" translate="yes" xml:space="preserve">
           <source>Data deletion successfully completed</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report DWH Del personalDataOf debtors - NamedType Success</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DWH Del personalDataOf debtors - Method ChangeCustData - NamedType Success</note>
+        </trans-unit>
+        <trans-unit id="Report 118285402 - Method 87560430 - NamedType 2763291245" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sorry there is nothing to do here</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DWH Del personalDataOf debtors - Method TransferFields - NamedType ErrorMessage</note>
+        </trans-unit>
+        <trans-unit id="Report 118285402 - Method 87560430 - NamedType 2945685525" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data is successfully procced.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report DWH Del personalDataOf debtors - Method TransferFields - NamedType ProcessSucess</note>
         </trans-unit>
         <trans-unit id="Report 1320963047 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>DWH Loading data Arlem</source>

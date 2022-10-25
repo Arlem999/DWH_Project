@@ -19,8 +19,23 @@ report 50102 "DWH Del personalDataOf debtors"
                     ChangeCustData();
             end;
         }
-
     }
+
+    procedure TransferFields(DWHLog: Record "DWH integration archive Arlem")
+    var
+        ErrorMessage: Label 'Sorry there is nothing to do here';
+        ProcessSucess: Label 'Data is successfully procced.';
+    begin
+        if DWHLog.FindSet() then begin
+            repeat
+                DWHLog.TransferFields(DWHLog, true);
+                DWHLog.Insert();
+                DWHLog.Delete();
+            until DWHLog.Next() = 0;
+        end else
+            Message(ErrorMessage);
+        Message(ProcessSucess);
+    end;
 
     local procedure ChangeCustData()
     var
