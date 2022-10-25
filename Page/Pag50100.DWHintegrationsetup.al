@@ -67,6 +67,21 @@ page 50100 "DWH integration setup Arlem"
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Invoice default G/L Account field.';
                 }
+                field("Default Bank Account"; Rec."Default Bank Account")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the Default Bank Account field.';
+                }
+                field("Default Exp Debit G/L Account"; Rec."Default Exp Debit G/L Account")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the Default Exp Debit G/L Account field.';
+                }
+                field("Default Exp Credit G/L Account"; Rec."Default Exp Credit G/L Account")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the value of the Default Exp Credit G/L Account field.';
+                }
             }
         }
     }

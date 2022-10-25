@@ -333,10 +333,25 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration setup Arlem - Field Api URL - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 517359439 - Field 3884942992 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default Bank Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration setup Arlem - Field Default Bank Account - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 517359439 - Field 3961496132 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Default Customer Posting Group</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration setup Arlem - Field Default Customer Posting Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 517359439 - Field 3802463242 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default Exp Credit G/L Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration setup Arlem - Field Default Exp Credit G/L Account - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 517359439 - Field 1122614415 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default Exp Debit G/L Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table DWH integration setup Arlem - Field Default Exp Debit G/L Account - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 517359439 - Field 2636575222 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Default Gen. Bus. Post. Group</source>
@@ -728,10 +743,25 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration setup Arlem - Control Api URL - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 517359439 - Control 3884942992 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Default Bank Account field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration setup Arlem - Control Default Bank Account - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 517359439 - Control 3961496132 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Default Customer Posting Group field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration setup Arlem - Control Default Customer Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 517359439 - Control 3802463242 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Default Exp Credit G/L Account field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration setup Arlem - Control Default Exp Credit G/L Account - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 517359439 - Control 1122614415 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Default Exp Debit G/L Account field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DWH integration setup Arlem - Control Default Exp Debit G/L Account - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 517359439 - Control 2636575222 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Default Gen. Bus. Post. Group field.</source>

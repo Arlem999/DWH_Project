@@ -21,15 +21,6 @@ report 50101 "DWH Data Processing"
     procedure CreateSalesHeader(DWHRecord: Record "DWH Integration Log Arlem"): Boolean
     begin
         SalesHeader.Init();
-        Customer.SetRange("Case ID Arlem", DWHRecord."Case ID");
-        if (Customer.FindFirst) then
-            SalesHeader.Validate("Sell-to Customer No.", Customer."No.")
-        else begin
-            CreateCustomer(DWHRecord);
-            Customer.SetRange("Case ID Arlem", DWHRecord."Case ID");
-            SalesHeader.Validate("Sell-to Customer No.", Customer."No.");
-        end;
-
         if (DWHRecord."Document Type" = DWHRecord."Document Type"::Invoice) and (DWHRecord.Correction = false) and (DWHRecord.Invoiced = true) then
             SalesHeader.Validate("Document Type", SalesHeader."Document Type"::Invoice)
         else
@@ -42,6 +33,17 @@ report 50101 "DWH Data Processing"
         SalesHeader.Validate("Posting Description", DWHRecord.Description + DWHRecord."Transaction ID");
         SalesHeader.Validate(Correction, DWHRecord.Correction);
         SalesHeader.Validate("Bal. Account Type");
+
+        Customer.SetRange("Case ID Arlem", DWHRecord."Case ID");
+        if (Customer.FindFirst) then
+            SalesHeader.Validate("Sell-to Customer No.", Customer."No.")
+        else begin
+            CreateCustomer(DWHRecord);
+            Customer.Reset();
+            Customer.SetRange("Case ID Arlem", DWHRecord."Case ID");
+            SalesHeader.Validate("Sell-to Customer No.", Customer."No.");
+        end;
+
         If (SalesHeader.Insert(true)) then begin
             CreateDimension(DWHRecord);
             SalesHeader.ValidateShortcutDimCode(GetShortcutFieldNo(DimensValue), DimensionCode);
@@ -164,18 +166,17 @@ report 50101 "DWH Data Processing"
         if (DWHRecord."Document Type" = DWHRecord."Document Type"::Payment) then begin
             GenJournal.Validate("Document Type", GenJournal."Document Type"::Payment);
             GenJournal.Validate("Account Type", GenJournal."Account Type"::"G/L Account");
-            GenJournal.Validate("Account No.", DWHsetup."Invoice default G/L Account");
-            GenJournal.Validate("Bal. Account Type", GenJournal."Bal. Account Type"::"G/L Account");
-            GenJournal.Validate("Bal. Account No.", DWHsetup."Invoice default G/L Account");
+            Customer.SetRange("Case ID Arlem", DWHRecord."Case ID");
+            if (Customer.FindFirst) then
+                GenJournal."Account No." := Customer."No.";
+            GenJournal.Validate("Bal. Account Type", GenJournal."Bal. Account Type"::"Bank Account");
+            GenJournal.Validate("Bal. Account No.", DWHsetup."Default Bank Account");
         end else begin
             GenJournal.Validate("Document Type", DWHRecord."Document Type"::Refund);
             GenJournal.Validate("Account Type", GenJournal."Account Type"::Customer);
-            Customer.Init();
-            Customer.SetRange("Case ID Arlem", DWHRecord."Case ID");
-            if (Customer.FindFirst) then
-                GenJournal.Validate("Account No.", Customer."No.");
+            GenJournal.Validate("Account No.", DWHsetup."Default Exp Debit G/L Account");
             GenJournal.Validate("Bal. Account Type", GenJournal."Bal. Account Type"::"Bank Account");
-            GenJournal.Validate("Bal. Account No.", DWHsetup."Invoice default G/L Account");
+            GenJournal.Validate("Bal. Account No.", DWHsetup."Default Exp Credit G/L Account");
         end;
 
         GenJournal.Validate(Description, DWHRecord.Description);
