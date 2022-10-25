@@ -9,7 +9,6 @@ codeunit 50100 "Test "
 
     var
         IsInitialized: Boolean;
-        LibraryStorage: Codeunit "Library - Variable Storage";
 
     local procedure Initialize()
     begin

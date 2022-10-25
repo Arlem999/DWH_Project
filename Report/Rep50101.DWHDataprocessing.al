@@ -6,6 +6,13 @@ report 50101 "DWH Data Processing"
     ProcessingOnly = true;
     UseRequestPage = false;
 
+    dataset
+    {
+        dataitem("DWH Integration Log Arlem"; "DWH Integration Log Arlem")
+        {
+        }
+    }
+
     var
         GenJournal: Record "Gen. Journal Line";
         Customer: Record Customer;
@@ -17,6 +24,27 @@ report 50101 "DWH Data Processing"
         SalesReceivablesSetup: Record "Sales & Receivables Setup";
         DimensValue: Label 'PORTAFOGLIO';
         DimensionCode: Code[20];
+
+    trigger OnPreReport()
+    var
+        DWHArchive: Record "DWH Integration Archive Arlem";
+        DWHProcess: Report "DWH Data Processing";
+        ErrorMessage: Label 'Sorry there is nothing to do here';
+        ProcessSucess: Label 'Data is successfully procced.';
+    begin
+        if "DWH Integration Log Arlem".FindSet() then begin
+            repeat
+                if DWHProcess.CreateSalesHeader("DWH Integration Log Arlem") and (DWHProcess.CreateGenJournalLines("DWH Integration Log Arlem")) then begin
+                    DWHArchive.TransferFields("DWH Integration Log Arlem", true);
+                    DWHArchive.Insert(true);
+                    "DWH Integration Log Arlem".Delete();
+                end;
+            until "DWH Integration Log Arlem".Next() = 0;
+        end else
+            Message(ErrorMessage);
+        Message(ProcessSucess);
+    end;
+
 
     procedure CreateSalesHeader(DWHRecord: Record "DWH Integration Log Arlem"): Boolean
     begin

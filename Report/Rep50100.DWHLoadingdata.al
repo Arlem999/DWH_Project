@@ -20,6 +20,11 @@ report 50100 "DWH Loading data"
         FileName: text;
         SheetName: Text;
 
+    trigger OnPreReport()
+    begin
+        ImportExcelData();
+    end;
+
     local procedure ImportExcelFile()
     var
         FileMgt: Codeunit "File Management";
@@ -137,10 +142,5 @@ report 50100 "DWH Loading data"
     begin
         If Boolean <> '1' then
             exit(false);
-    end;
-
-    trigger OnPreReport()
-    begin
-        ImportExcelData();
     end;
 }

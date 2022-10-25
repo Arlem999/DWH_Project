@@ -181,26 +181,7 @@ page 50102 "DWH Integration Log Arlem"
                 PromotedCategory = Process;
                 PromotedOnly = true;
                 PromotedIsBig = true;
-
-                trigger OnAction()
-                var
-                    DWHArchive: Record "DWH Integration Archive Arlem";
-                    DWHProcess: Report "DWH Data Processing";
-                    ErrorMessage: Label 'Sorry there is nothing to do here';
-                    ProcessSucess: Label 'Data is successfully procced.';
-                begin
-                    if Rec.FindSet() then begin
-                        repeat
-                            if DWHProcess.CreateSalesHeader(Rec) and (DWHProcess.CreateGenJournalLines(Rec)) then begin
-                                DWHArchive.TransferFields(Rec, true);
-                                DWHArchive.Insert(true);
-                                Rec.Delete();
-                            end;
-                        until Rec.Next() = 0;
-                    end else
-                        Message(ErrorMessage);
-                    Message(ProcessSucess);
-                end;
+                RunObject = report "DWH Data Processing";
             }
             action("DWH Loading data")
             {
