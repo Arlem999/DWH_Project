@@ -9,6 +9,8 @@ codeunit 50100 "Test "
 
     var
         IsInitialized: Boolean;
+        LibraryUtility: Codeunit "Library - Utility";
+        LibraryERM: Codeunit "Library - ERM";
 
     local procedure Initialize()
     begin
@@ -24,10 +26,11 @@ codeunit 50100 "Test "
     local procedure CreateNoSeriesWithLine(): Code[10]
     var
         NoSeries: Record "No. Series";
+        NoSeriesLine: Record "No. Series Line";
     begin
-        NoSeries.SetRange(Code, 'LUN-IT');
-        If NoSeries.FindFirst() then
-            exit(NoSeries.Code);
+        LibraryUtility.CreateNoSeries(NoSeries, true, true, true);
+        LibraryUtility.CreateNoSeriesLine(NoSeriesLine, NoSeries.Code, NoSeries.Code, '');
+        exit(NoSeries.Code);
     end;
 
     local procedure CheckNoSeriesItemSetup()
@@ -46,12 +49,45 @@ codeunit 50100 "Test "
     var
         ItemTemp: Record Item temporary;
     begin
+        //Setup
+        Initialize();
+        CreateItemTemp(ItemTemp);
 
+        //Exercise
+        CreateItemCard(ItemTemp);
+
+        //Verify
+        VerifyItem(ItemTemp);
     end;
 
-    [ModalPageHandler]
-    procedure CreateItemTemp(var Test: TestPage "Item Card")
+    local procedure CreateItemTemp(ItemTemp: Record Item temporary)
+    var
+        InventoryPostGroup: Record "Inventory Posting Group";
+        GeneralPostGroup: Record "General Posting Setup";
+        VATPostingSetup: Record "VAT Posting Setup";
     begin
+        ItemTemp.Validate(Description, LibraryUtility.GenerateRandomText(MaxStrLen(ItemTemp.Description)));
+    end;
 
+    local procedure CreateItemCard(var Item: Record Item)
+    var
+        ItemCard: TestPage "Item Card";
+    begin
+        ItemCard.OpenNew();
+        ItemCard."Gen. Prod. Posting Group".SetValue(Item."Gen. Prod. Posting Group");
+        ItemCard."VAT Prod. Posting Group".SetValue(Item."VAT Prod. Posting Group");
+        ItemCard."Inventory Posting Group".SetValue(Item."Inventory Posting Group");
+        Item."No." := ItemCard."No.".Value;
+        ItemCard.Ok.Invoke();
+    end;
+
+    local procedure VerifyItem(Item: Record Item)
+    var
+        Item2: Record Item;
+    begin
+        Item2.Get(Item."No.");
+        Item2.TestField("Gen. Prod. Posting Group", Item."Gen. Prod. Posting Group");
+        Item2.TestField("VAT Prod. Posting Group", Item."VAT Prod. Posting Group");
+        Item2.TestField("Inventory Posting Group", Item."Inventory Posting Group");
     end;
 }

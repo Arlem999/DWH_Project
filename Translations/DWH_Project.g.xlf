@@ -853,6 +853,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Action Clear client's personal data - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 404318199 - Action 1569411359 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2026081320">
+          <source>Divide the quantity of the item in the selected line according to the employees specified in the Employee No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Sales Order Subform Ext - Action Split Lines by Employees - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 404318199 - Action 1569411359 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2026081320">
+          <source>Split Lines by Employee</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Sales Order Subform Ext - Action Split Lines by Employees - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1183321529 - Field 3335136002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2733917450">
           <source>Case ID Arlem</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -897,6 +907,11 @@
           <source>Case ID Arlem</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Invoice Header Ext - Field Case ID Arlem - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1846452001 - Field 1964419135 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
+          <source>Employee No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Line Ext - Field Employee No. - Property Caption</note>
         </trans-unit>
       </group>
     </body>
