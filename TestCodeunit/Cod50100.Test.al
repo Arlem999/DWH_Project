@@ -45,6 +45,7 @@ codeunit 50100 "Test "
     end;
 
     [Test]
+    [HandlerFunctions('ConfigTempHandler')]
     procedure CreateItemByPage()
     var
         ItemTemp: Record Item temporary;
@@ -63,10 +64,17 @@ codeunit 50100 "Test "
     local procedure CreateItemTemp(ItemTemp: Record Item temporary)
     var
         InventoryPostGroup: Record "Inventory Posting Group";
-        GeneralPostGroup: Record "General Posting Setup";
+        GeneralPostSetup: Record "General Posting Setup";
         VATPostingSetup: Record "VAT Posting Setup";
     begin
-        ItemTemp.Validate(Description, LibraryUtility.GenerateRandomText(MaxStrLen(ItemTemp.Description)));
+        LibraryERM.FindGeneralPostingSetup(GeneralPostSetup);
+        LibraryERM.FindVATPostingSetup(VATPostingSetup, VATPostingSetup."VAT Calculation Type"::"Normal VAT");
+        InventoryPostGroup.FindFirst();
+        ItemTemp.Init;
+        ItemTemp.Insert(true);
+        ItemTemp.Validate("Inventory Posting Group", InventoryPostGroup.Code);
+        ItemTemp.Validate("Gen. Prod. Posting Group", GeneralPostSetup."Gen. Prod. Posting Group");
+        ItemTemp.Validate("VAT Prod. Posting Group", VATPostingSetup."VAT Prod. Posting Group");
     end;
 
     local procedure CreateItemCard(var Item: Record Item)
@@ -89,5 +97,12 @@ codeunit 50100 "Test "
         Item2.TestField("Gen. Prod. Posting Group", Item."Gen. Prod. Posting Group");
         Item2.TestField("VAT Prod. Posting Group", Item."VAT Prod. Posting Group");
         Item2.TestField("Inventory Posting Group", Item."Inventory Posting Group");
+    end;
+
+    [ModalPageHandler]
+    procedure ConfigTempHandler(var ConfigTempl: TestPage "Config Templates")
+    begin
+        if ConfigTempl.First() then
+            ConfigTempl.Ok.Invoke();
     end;
 }
