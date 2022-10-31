@@ -8,6 +8,26 @@ pageextension 50109 "Sales Order Subform Ext" extends "Sales Order Subform"
             {
             }
         }
+        modify("No.")
+        {
+            AssistEdit = true;
+            trigger OnAssistEdit()
+            var
+                ItemList: Page "Item List";
+                Item: Record Item;
+                SetOfEmployee: Text;
+            begin
+                ItemList.LookupMode := true;
+                if ItemList.RunModal() = Action::LookupOK then begin
+                    Item.SetFilter("No.", ItemList.GetSelectionFilter());
+                    If Item.FindSet() then
+                        repeat
+                            SetOfEmployee += Item."No." + '/';
+                        until Item.Next() = 0;
+                    Rec."No." := SetOfEmployee.Split('/').Get(1);
+                end;
+            end;
+        }
     }
     actions
     {
@@ -37,24 +57,17 @@ pageextension 50109 "Sales Order Subform Ext" extends "Sales Order Subform"
         QuantityPerEmployee := Rec.Quantity / Rec."Employee No.";
 
         repeat
-            NewSalesLines.SetRange("Document Type", Rec."Document Type");
-            NewSalesLines.SetRange("Document No.", Rec."Document No.");
-            NewSalesLines.SetFilter("Line No.", '>%1', Rec."Line No.");
-
-            if NewSalesLines.FindFirst() then begin
-                LineSpacing := (NewSalesLines."Line No." - Rec."Line No.") div 2;
-            end else
-                LineSpacing := 10000;
-            NewSalesLines.Reset();
             NewSalesLines.Init();
             NewSalesLines := Rec;
+            LineSpacing += 1;
             NewSalesLines."Line No." := Rec."Line No." + LineSpacing;
             NewSalesLines.Quantity := QuantityPerEmployee;
-            NewSalesLines.Insert();
+            NewSalesLines.Insert(true);
 
             Rec.Quantity -= QuantityPerEmployee;
             Rec."Employee No." -= 1;
             Rec.Modify(true);
-        until Rec."Employee No." = 1
+        until Rec."Employee No." = 1;
+        CurrPage.Update(false);
     end;
 }

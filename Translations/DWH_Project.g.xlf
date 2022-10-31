@@ -853,6 +853,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Action Clear client's personal data - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1982721586 - Action 854264099 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526152577">
+          <source>Create RS.GE Cross Reference for selected line with barcode.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Purchase Order Subform Ext - Action Create Cross Reference - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1982721586 - Action 854264099 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526152577">
+          <source>Create Cross Reference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Purchase Order Subform Ext - Action Create Cross Reference - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1982721586 - Action 854264099 - Method 1377591017 - NamedType 672599587" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1982721586">
+          <source>The cross reference you are creating already exists in the RS.GE Cross Reference table. Do you want to overwrite it?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Purchase Order Subform Ext - Action Create Cross Reference - Method OnAction - NamedType Txt001</note>
+        </trans-unit>
         <trans-unit id="PageExtension 404318199 - Action 1569411359 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2026081320">
           <source>Divide the quantity of the item in the selected line according to the employees specified in the Employee No. field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -912,6 +927,11 @@
           <source>Employee No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Line Ext - Field Employee No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3300055767 - Change 617267791 - Method 3059879501 - NamedType 672599587" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 3300055767">
+          <source>Identification number %1 was not found on RS.GE</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Vendor Ext - Change VAT Registration No. - Method OnAfterValidate - NamedType Txt001</note>
         </trans-unit>
       </group>
     </body>
